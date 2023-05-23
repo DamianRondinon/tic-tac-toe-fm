@@ -1,8 +1,15 @@
+import Start from "./components/Start";
+import Board from "./components/Board";
 
 export default function Home() {
   return (
     <main>
-      hola
+      <div className="page">
+      <div className="container">
+        <Start />
+        <Board />
+      </div>
+      </div>
     </main>
-  )
+  );
 }

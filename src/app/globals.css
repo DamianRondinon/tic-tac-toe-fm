@@ -1,3 +1,136 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 :root {
-  color-scheme: dark;
+  --color-bg-dark: #192a33;
+  --color-bg-light: #1f3640;
+  --color-bg-gray: #a8bec9;
+  --color-bg-gray-dark: #7a8991;
+  --color-bg-yellow: #f2b238;
+  --color-bg-yellow-dark: #cd8d16;
+  --color-bg-blue: #30c4be;
+  --color-bg-blue-dark: #128c89;
+}
+
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+body {
+  background-color: var(--color-bg-dark);
+  color: var(--color-bg-gray);
+}
+
+.page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  max-width: 450px;
+  width: 100%;
+  margin-inline: auto;
+  padding: 2rem 1rem;
+}
+
+/* utilites */
+
+.card {
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  border-radius: 15px;
+  background-color: var(--color-bg-light);
+  text-align: center;
+}
+
+.text-lg {
+  font-size: 1.25rem;
+}
+
+.text-xl {
+  font-size: 1.5rem;
+}
+
+.text-2xl {
+  font-size: 1.725rem;
+}
+
+.text-light {
+  color: var(--color-bg-gray-dark);
+}
+
+.text-blue {
+  color: var(--color-bg-blue);
+}
+
+.text-yellow {
+  color: var(--color-bg-yellow);
+}
+
+.btn {
+  background: var(--color-bg-gray);
+  border: none;
+  font-size: 1.125rem;
+  font-weight: bold;
+  padding: 12px 25px;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-radius: 10px;
+  color: var(--color-bg-light);
+  display: inline-block;
+  box-shadow: 0 6px 0 var(--color-bg-gray-dark);
+  margin-bottom: 6px;
+}
+
+/* Start */
+
+.start {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.start_header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.start_player {
+  background-color: var(--color-bg-dark);
+  padding: 10px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+.start_player span {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.start_player--active {
+  background-color: var(--color-bg-gray);
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.2);
+}
+
+.start_btn {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }
