@@ -1,19 +1,24 @@
 import React from "react";
+import Xicon from "./icons/Xicon";
+import Ocircle from "./icons/Ocircle"
 
 const Start = () => {
   return (
     <div className="start">
-      <div className="start_header">X O</div>
+      <div className="start_header">
+        <Xicon />
+        <Ocircle className="circle"/>
+      </div>
       <div className="card shadow">
         <h1 className="text-lg">Pick player 1´st mark</h1>
         <div className="start_player">
             <span
             className="start_player--active"
             >
-                X
+              <Xicon color="dark" />
             </span>
             <span>
-                O
+                <Ocircle color="light" />
             </span>
         </div>
         <p className="text-light">remember: x goes first</p>

@@ -89,6 +89,64 @@ body {
   display: inline-block;
   box-shadow: 0 6px 0 var(--color-bg-gray-dark);
   margin-bottom: 6px;
+  transition: all 0.2s;
+}
+
+.btn:active {
+  transform: translateY(2px);
+  box-shadow: 0 4px 0 var(--color-bg-gray-dark);
+}
+
+.btn-yellow {
+  background-color: var(--color-bg-yellow);
+  box-shadow: 0 6px 0 var(--color-bg-yellow-dark);
+}
+
+.btn-yellow:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 0 var(--color-bg-yellow-dark);
+}
+
+.btn-blue {
+  background-color: var(--color-bg-blue);
+  box-shadow: 0 6px 0 var(--color-bg-blue-dark);
+}
+
+.btn-blue:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 0 var(--color-bg-blue-dark);
+}
+
+/* Icon */
+
+.icon {
+  display: inline-block;
+}
+
+.icon svg {
+  fill: var(--color-bg-gray);
+  height: 3rem;
+  vertical-align: middle;
+}
+
+.icon-sm svg {
+  height: 30px;
+}
+
+.icon-lg svg {
+  height: 65px;
+}
+
+.icon-yellow svg {
+  fill: var(--color-bg-yellow);
+}
+
+.icon-blue svg {
+  fill: var(--color-bg-blue);
+}
+
+.icon-dark svg {
+  fill: var(--color-bg-dark);
 }
 
 /* Start */
