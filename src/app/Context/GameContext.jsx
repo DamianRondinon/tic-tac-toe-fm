@@ -1,3 +1,5 @@
+"use client";
+
 import { createContext, useState, useContext, useEffect } from "react";
 import { ModalContext } from "./ModalContext";
 import { calcBestMove, calcWinner } from "../helpers/calcSquares";
