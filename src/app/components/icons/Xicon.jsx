@@ -12,7 +12,7 @@ const Xicon = ({ color, size }) => {
         viewBox="0 0 64 64"
         aria-hidden="true"
         role="img"
-        class="iconify iconify--emojione-monotone"
+        className="iconify iconify--emojione-monotone"
         preserveAspectRatio="xMidYMid meet"
       >
         <path
