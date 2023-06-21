@@ -15,4 +15,4 @@ https://www.frontendmentor.io/challenges/tic-tac-toe-game-Re7ZF_E2v
 
 
 ![img-2-tic-tac](https://github.com/DamianRondinon/tic-tac-toe-fm/assets/95187328/fe1467f8-bbf5-4f43-8f36-b780bd94ba97)
-![Uploading img1-tic-tac.PNG…]()
+![Uploading img1-tic-tac.jpg…]()
