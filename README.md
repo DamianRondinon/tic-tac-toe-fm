@@ -11,6 +11,6 @@ Details:
 Challenge taken from fronten Mentor
 https://www.frontendmentor.io/challenges/tic-tac-toe-game-Re7ZF_E2v
 
-[![frankens.png](https://i.postimg.cc/j2PPW7x8/frankens.png)](https://postimg.cc/4H4mqnht)
+[img-2-tic-tac.PNG](https://github.com/DamianRondinon/tic-tac-toe-fm/blob/main/src/app/assets/img-2-tic-tac.PNG)
 
 
