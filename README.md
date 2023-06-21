@@ -6,7 +6,7 @@ First, run the development server:
 pnpm dev
 ```
 
-![](https://github.com/DamianRondinon/tic-tac-toe-fm/blob/main/src/app/assets/img-2-tic-tac.PNG)
+![](https://github.com/DamianRondinon/tic-tac-toe-fm/blob/main/src/app/assets/img-2-tic-tac.png)
 
 Details:
 
